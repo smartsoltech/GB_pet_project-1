@@ -1,0 +1,11 @@
+#Сборка контейнеров Docker для бота
+version: "3"
+services:
+  server:
+    build: bot/
+    command: python ./main.py
+  ports:
+      - 1234:1234
+    network_mode: host
+    depends_on:
+      - server

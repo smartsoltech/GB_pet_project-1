@@ -2,3 +2,4 @@ pyTelegramBotAPI
 openPyXl
 dotenv
 Pyyaml
+Sqlite3
